@@ -1,0 +1,7 @@
+Instructions
+
+For this assignment, I want you to model an overlay network in simulation. Your simulation must display visually both the "real" network and the overlay. Your simulation must generate at least 100 nodes for the "real" network. Each node of the "real" network must be connected randomly to at least 25% of the other "real" nodes. The overlay network must connect every node in a structured manner using super peers. These super peers would divide the real network into regions such that there would be one super peer per region. The number of super peers is to be entered at runtime and your simulation should permit updates to the number of nodes. Your simulation should allow the user to request a route between real nodes; and your program should output the route between the nodes for both the real and overlay networks. Your simulation should route from source data work node to a super peer near the source to a super peer near the destination to the destination. You are free to use any programming language you like to meet this requirement.
+
+Other considerations:
+
+Please plan for future assignments to ask you to scale this simulation up to much larger sizes. Also plan to allow for sparesely connected real networks. Also, plan to address the adding and deleting of nodes and super peers.
